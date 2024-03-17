@@ -4,8 +4,8 @@
     "Text 1",
     "Text 2",
     {
-      "Header 1",
-      "Text 3"
+      "title": "Header 1",
+      "content": "Text 3"
     }
   ]
 }
