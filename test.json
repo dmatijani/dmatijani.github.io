@@ -1,0 +1,11 @@
+{
+  "title": "News",
+  "content": [
+    "Text 1",
+    "Text 2",
+    {
+      "Header 1",
+      "Text 3"
+    }
+  ]
+}
