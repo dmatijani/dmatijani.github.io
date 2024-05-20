@@ -1,0 +1,231 @@
+/* ZAJEDNIČKO */
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0cm;
+    padding: 0cm;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #333132;
+    margin: 0cm;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #333132;
+    margin: 0cm;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1em;
+    color: #333132;
+    margin: 0cm;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.75em;
+    margin: 0cm;
+    padding: 0cm;
+}
+
+pre {
+    margin: 0px;
+}
+
+h1>pre {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+ul {
+    margin: 0cm;
+    padding-left: 0.5cm;
+}
+
+li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.66em;
+}
+
+a {
+    color: white;
+    margin: 0cm;
+    padding: 0cm;
+}
+
+
+
+/* SIDE SECTION */
+
+.profileImage {
+    width: 4.48cm;
+    height: 4.48cm;
+    border-radius: 2.24cm;
+    margin: 0.67cm;
+}
+
+#cvSide {
+    background-color: #333132;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.1cm;
+    padding-top: 1.1cm;
+    width: 6.92cm;
+    height: 200%;
+    flex-shrink: 0;
+}
+
+#cvSide>* {
+    margin-bottom: 1.2cm;
+}
+
+#cvSide>*:last-child {
+    margin-bottom: 0cm;
+}
+
+.sideSection {
+    margin: 0cm;
+    padding: 0cm;
+    color: white;
+}
+
+.sideSection>* {
+    margin: 0cm;
+    border: 0cm;
+    padding: 0cm;
+}
+
+.sideSection>h2 {
+    margin-bottom: 0.5cm;
+    color: white;
+}
+
+.sideSectionItems>* {
+    margin-bottom: 0.52cm;
+}
+
+.sideSectionItems>*:last-child {
+    margin-bottom: 0cm;
+}
+
+.sideSectionItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.sideSectionItem * {
+    margin: 0px;
+}
+
+.svg {
+    filter: invert(100%);
+    width: 0.4cm;
+    margin-right: 0.2cm;
+}
+
+.sideSection a {
+    text-decoration: none;
+}
+
+#engPercent {
+    margin: 0cm;
+    padding: 0cm;
+    background-color: black;
+    width: 3.56cm;
+    height: 0.14cm;
+}
+
+#engPercentFull {
+    margin: 0cm;
+    padding: 0cm;
+    background-color: #5271ff;
+    width: 3.02cm;
+    height: 0.14cm;
+}
+
+/* MAIN SECTION */
+
+#cvMain {
+    background-color: white;
+    width: 100%;
+    padding-left: 1.1cm;
+    padding-top: 1.1cm;
+    padding-right: 1.1cm;
+    height: 100%;
+}
+
+#cvMain>* {
+    margin: 0cm;
+    margin-bottom: 0.8cm;
+    padding: 0cm;
+    color: #333132;
+}
+
+#cvMain>.cvSection>* {
+    margin: 0cm;
+    padding: 0cm;
+}
+
+#cvMain>.cvSection>h2,h3 {
+    margin-bottom: 0.2cm;
+}
+
+#cvMain .cvSubSection {
+    margin-bottom: 0.4cm;
+}
+
+#cvMain>.cvSection>ul {
+    margin-left: 0.5cm;
+}
+
+#cvMain .titleAndDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#cvMain .titleAndDate>p:last-child {
+    color: #545454;
+}
+
+#cvMain .progLangRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#cvMain .progLangRow>.progLang {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cvMain .progLangRow>.progLang>img {
+    width: 1.2cm;
+}
+
+#cvMain a {
+    color: #333132;
+}
