@@ -166,6 +166,22 @@ a {
     height: 0.14cm;
 }
 
+#croPercent {
+    margin: 0cm;
+    padding: 0cm;
+    background-color: black;
+    width: 3.56cm;
+    height: 0.14cm;
+}
+
+#croPercentFull {
+    margin: 0cm;
+    padding: 0cm;
+    background-color: #5271ff;
+    width: 3.56cm;
+    height: 0.14cm;
+}
+
 /* MAIN SECTION */
 
 #cvMain {
