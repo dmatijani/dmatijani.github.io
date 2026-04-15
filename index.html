@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <div id="cvSide">
@@ -53,35 +54,24 @@
             </div>
         </div>
         <div class="sideSection">
-            <h2>NAGRADE</h2>
+            <h2>OSOBINE</h2>
             <div class="sideSectionItems">
                 <div class="sideSectionItem">
-                    <img class="svg" src="svg/trophy.svg" alt="Globe icon">
+                    <img class="svg" src="svg/learn.svg" alt="Book icon">
                     <div>
-                        <p>najbolji student na 1. godini</p>
-                        <ul>
-                            <li>po prosjeku ocjena</li>
-                        </ul>
+                        <p>brzo učim</p>
                     </div>
                 </div>
                 <div class="sideSectionItem">
-                    <img class="svg" src="svg/medal.svg" alt="Globe icon">
+                    <img class="svg" src="svg/person.svg" alt="Person icon">
                     <div>
-                        <p>2. mjestu na državnom natjecanju</p>
-                        <ul>
-                            <li>kategorija - osnove informatike</li>
-                            <li>2. razred srednje škole (2019.)</li>
-                        </ul>
+                        <p>dobre organizacijske sposobnosti i raspoređivanje vremena</p>
                     </div>
                 </div>
                 <div class="sideSectionItem">
-                    <img class="svg" src="svg/medal2.svg" alt="Globe icon">
+                    <img class="svg" src="svg/medal2.svg" alt="Team icon">
                     <div>
-                        <p>3. mjesto na državnom natjecanju</p>
-                        <ul>
-                            <li>kategorija - osnove informatike</li>
-                            <li>8. razred (2017.)</li>
-                        </ul>
+                        <p>rad i prilagodljivost timu</p>
                     </div>
                 </div>
             </div>
@@ -92,8 +82,8 @@
         <div>
             <h1>
                 <pre>
-DAVID
-MATIJANIĆ</pre>
+bacc.inf.
+DAVID MATIJANIĆ</pre>
             </h1>
         </div>
         <div class="cvSection">
@@ -109,8 +99,15 @@ MATIJANIĆ</pre>
             <div class="cvSubSection">
                 <h3>Obrazovanje</h3>
                 <div class="titleAndDate">
-                    <p>Fakultet organizacije i informatike</p>
-                    <p>listopad 2021. - trenutno</p>
+                    <p>Fakultet organizacije i informatike - diplomski studij</p>
+                    <p>listopad 2024. - trenutno</p>
+                </div>
+                <ul>
+                    <li>Informacijsko i programsko inženjerstvo</li>
+                </ul>
+                <div class="titleAndDate">
+                    <p>Fakultet organizacije i informatike - prijediplomski studij</p>
+                    <p>listopad 2021. - rujan 2024.</p>
                 </div>
                 <ul>
                     <li>Informacijski i poslovni sustavi - Razvoj programskih sustava</li>
@@ -126,12 +123,12 @@ MATIJANIĆ</pre>
             <div class="cvSubSection">
                 <h3>IGEA</h3>
                 <div class="titleAndDate">
-                    <p>Junior developer</p>
+                    <p>Junior software developer</p>
                     <p>kolovoz 2024. - trenutno</p>
                 </div>
                 <ul>
-                    <li>.NET</li>
-                    <li>Blazor</li>
+                    <li>razvoj rješenja iz domene upravljanja predmetima</li>
+                    <li>C#, .NET, ASP.NET, Blazor, SQL Server, JavaScript</li>
                 </ul>
                 <h3>Fakultet organizacije i informatike</h3>
                 <div class="titleAndDate">
@@ -139,7 +136,7 @@ MATIJANIĆ</pre>
                     <p>veljača 2024. - trenutno</p>
                 </div>
                 <ul>
-                    <li>odrađivanje prakse</li>
+                    <li>migriranje postojeće Windows Forms .NET aplikacije na WebAssembly</li>
                     <li>razvoj mobilnih aplikacija (Kotlin, Android Studio, GitHub)</li>
                 </ul>
                 <div class="titleAndDate">
@@ -151,16 +148,6 @@ MATIJANIĆ</pre>
                     <li>Matematika 2</li>
                 </ul>
             </div>
-            <div class="cvSubSection">
-                <h3>Valamar | Valfresco</h3>
-                <div class="titleAndDate">
-                    <p>Radnik u trgovini:</p>
-                    <p>srpanj i kolovoz 2022. te 2023.</p>
-                </div>
-                <ul>
-                    <li>rad na blagajni, slaganje polica, radovi u skladištu, čišćenje trgovine</li>
-                </ul>
-            </div>
         </div>
         <div class="cvSection">
             <h2>VJEŠTINE</h2>
@@ -168,65 +155,65 @@ MATIJANIĆ</pre>
                 <h3>Programski jezici</h3>
                 <div class="progLangRow">
                     <div class="progLang">
-                        <p>C++</p>
-                         <img src="assets/cpp_percentage.png" alt="C++ postotak">
-                    </div>
-                    <div class="progLang">
                         <p>C#</p>
-                         <img src="assets/csh_percentage.png" alt="C# postotak">
+                        <svg class="donut" data-percent="0.85" data-radius="48"></svg>
                     </div>
                     <div class="progLang">
                         <p>JavaScript</p>
-                         <img src="assets/js_percentage.png" alt="JavaScript postotak">
+                        <svg class="donut" data-percent="0.6" data-radius="48"></svg>
+                    </div>
+                    <div class="progLang">
+                        <p>Java</p>
+                        <svg class="donut" data-percent="0.7" data-radius="48"></svg>
+                    </div>
+                    <div class="progLang">
+                        <p>C++</p>
+                        <svg class="donut" data-percent="0.45" data-radius="48"></svg>
                     </div>
                     <div class="progLang">
                         <p>Kotlin</p>
-                         <img src="assets/kotlin_percentage.png" alt="Kotlin postotak">
+                        <svg class="donut" data-percent="0.6" data-radius="48"></svg>
                     </div>
                     <div class="progLang">
                         <p>TypeScript</p>
-                         <img src="assets/ts_percentage.png" alt="C++ postotak">
+                        <svg class="donut" data-percent="0.6" data-radius="48"></svg>
                     </div>
                     <div class="progLang">
                         <p>Python</p>
-                         <img src="assets/python_percentage.png" alt="C# postotak">
+                        <svg class="donut" data-percent="0.4" data-radius="48"></svg>
                     </div>
                     <div class="progLang">
                         <p>GML</p>
-                         <img src="assets/gml_percentage.png" alt="JavaScript postotak">
+                        <svg class="donut" data-percent="0.9" data-radius="48"></svg>
                     </div>
                 </div>
                 <br>
                 <p>Projekti:</p>
                 <ul>
-                    <li><span style="font-style: italic;">MyLibra</span>, listopad 2023. - siječanj 2024. (WPF aplikacija, .NET, C#): <a href="https://github.com/foivz/rpp23-project-dmatijani-mmarkovin-vlovric-dhegedusi">GitHub</a></li>
+                    <li><span style="font-style: italic;">MyLibra</span>, listopad 2023. - siječanj 2024. (WPF aplikacija, .NET, C#): <a href="https://github.com/foivz/tkipp24-projects-dmatijani-vlovric-dhegedusi-mmarkovin">GitHub</a></li>
                     <li>Web aplikacija za serije, prosinac 2023. (Angular, Node.js, Express): <a href="https://github.com/dmatijani/RWA-zadaca_02">GitHub</a></li>
-                    <li>Web stranica za hotel, travanj 2023. (HTML, CSS, JS, responzivni dizajn): <a href="https://github.com/dmatijani/OWT-zadaca_02">GitHub</a>, <a href="https://dmatijani.github.io/OWT-zadaca_02/">stranica</a></li>
-                    <li><span style="font-style: italic;">Creepyscule</span>, ožujak 2022. (igrica, GameMaker Studio 2): <a href="https://github.com/dmatijani/Creepyscule">GitHub</a>, <a href="https://gx.games/games/5li4yc/creepyscule/">igrica online</a></li>
+                    <li>Zadaća iz kolegija UzDiz za uzorke dizajna, listopad 2025. - siječanj 2026. (Java): <a href="https://github.com/dmatijani/UzDiz-zadaca-1">GitHub</a></li>
+                    <li>Sigurnosni kriptirani trezor, listopad 2025. - siječanj 2026. (Python): <a href="https://github.com/dmatijani/SUISP_projekt">GitHub</a></li>
+                    <li><span style="font-style: italic;">Creepyscule</span>, ožujak 2022. (igrica, GameMaker): <a href="https://github.com/dmatijani/Creepyscule">GitHub</a>, <a href="https://gx.games/games/5li4yc/creepyscule/">igrica online</a></li>
                     <li>Web aplikacija za glasanje, ožujak - lipanja 2024. (Node.js, Express, SQLite, fokus na sigurnosti): <a href="https://github.com/vlovric21/SIS_voting">GitHub</a></li>
-                    <li>Testiranje aplikacije <span style="font-style: italic;">MyLibra</span>, ožujak - lipanj 2024. (.NET, xUnit, GitHub Actions): <a href="https://github.com/foivz/tkipp24-projects-dmatijani-vlovric-dhegedusi-mmarkovin">GitHub</a></li>
+                    <li>Testiranje aplikacije <span style="font-style: italic;">MyLibra</span>, ožujak - lipanj 2024. (.NET, xUnit, GitHub Actions, Gherkin): <a href="https://github.com/foivz/tkipp24-projects-dmatijani-vlovric-dhegedusi-mmarkovin">GitHub</a></li>
                     <li>Ostali su projekti na mom <a href="https://github.com/dmatijani">GitHub profilu</a></li>
                 </ul>
             </div>
             <div class="cvSubSection">
                 <h3>Tehnologije, alati i ostale vještine</h3>
                 <ul>
-                    <li>dobro poznavanje HTML i CSS (responzivni dizajn)</li>
-                    <li>izrada jednostraničnih web aplikacija pomoću okvira Angular</li>
-                    <li>Node.js i npm (izrada web servera i aplikacija)</li>
-                    <li>.NET Framework (izrada Windows Forms ili WPF aplikacija, Blazor web aplikacije)</li>
-                    <li>korištenje Linux i git sustava</li>
+                    <li>C# i .NET (izrada Windows Forms ili WPF aplikacija, Blazor web aplikacije, ASP.NET)</li>
                     <li>SQL i relacijske baze podataka</li>
-                    <li>izrada igrica koristeći GameMaker Studio 2 (programski jezik GML)</li>
+                    <li>Scrum okvir</li>
+                    <li>Jira, Confluence</li>
+                    <li>GitHub</li>
+                    <li>Microsoft Dynamics 365 Business Central</li>
+                    <li>korištenje Linux i git sustava</li>
+                    <li>Node.js i npm (izrada web servera i aplikacija)</li>
+                    <li>Java Server Pages, Jakarta Faces</li>
+                    <li>izrada igrica koristeći GameMaker (programski jezik GML)</li>
                     <li>jednostavno uređivanje slika, izrada grafike</li>
-                </ul>
-            </div>
-            <div class="cvSubSection">
-                <h3>Osobne karakteristike</h3>
-                <ul>
-                    <li>brzo učim</li>
-                    <li>dobre organizacijske sposobnosti i raspoređivanje vremena</li>
-                    <li>rad i prilagodljivost timu</li>
                 </ul>
             </div>
         </div>

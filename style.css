@@ -222,8 +222,12 @@ a {
     flex-direction: column;
 }
 
-#cvMain .progLangRow>.progLang>img {
-    width: 1.2cm;
+#cvMain .progLangRow>.progLang>p {
+    position: absolute;
+}
+
+#cvMain .progLangRow>.progLang>svg {
+    margin-top: 1.2em;
 }
 
 #cvMain a {
